@@ -1,0 +1,56 @@
+button.btn.btn-primary.bt {
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+button.btn.btn-primary.bt1 {
+  margin-bottom: 5px;
+}
+
+.justify-content-center {
+  margin-bottom: 10px;
+}
+
+.card {
+  border: none;
+  box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+.product {
+  background-color: #eee
+}
+
+.act-tour {
+  color: red;
+  font-weight: 700
+}
+
+.content {
+  font-size: 14px
+}
+
+/* .color{margin-bottom:10px} */
+
+.btn-danger {
+  background-color: #ff0000 !important;
+  border-color: #ff0000 !important
+}
+
+.btn-danger:hover {
+  background-color: #da0606 !important;
+  border-color: #da0606 !important
+}
+
+.btn-danger:focus {
+  box-shadow: none
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+#error {
+  font-weight: bold;
+  font-size: 25px;
+  color: red;
+}
