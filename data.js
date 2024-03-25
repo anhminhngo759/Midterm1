@@ -128,16 +128,16 @@ function updateTour(index) {
   var newPrice = document.getElementById("editPrice").value;
   var newTimedi = document.getElementById("editTimedi").value;
   var newTimeve = document.getElementById("editTimeve").value;
-  var indexToUpdate = index;
+  var indexUpdate = index;
 
   console.log(index)
-  tour[indexToUpdate].id = newId;
-  tour[indexToUpdate].name = newName;
-  tour[indexToUpdate].image = newImage;
-  tour[indexToUpdate].content = newContext;
-  tour[indexToUpdate].price = newPrice;
-  tour[indexToUpdate].timedi = newTimedi;
-  tour[indexToUpdate].timeve = newTimeve;
+  tour[indexUpdate].id = newId;
+  tour[indexUpdate].name = newName;
+  tour[indexUpdate].image = newImage;
+  tour[indexUpdate].content = newContext;
+  tour[indexUpdate].price = newPrice;
+  tour[indexUpdate].timedi = newTimedi;
+  tour[indexUpdate].timeve = newTimeve;
   document.getElementById("editForm").style.display = "none";
   Show();
 }
