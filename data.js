@@ -59,7 +59,6 @@ function Show() {
   var html = "";
   var stt = 0;
   for (var i = 0; i < tour.length; i++) {
-    ;
     stt++;
     html += "<tr>";
     html += "<td>" + stt + "</td>";
@@ -67,7 +66,7 @@ function Show() {
     html += "<td>" + tour[i].name + "</td>";
     html += "<td><img src='" + tour[i].image + "' alt='Travel Image' style='width: 200px; height: 200px;'></td>";
     // html += "<td>"+arr[i].image+"</td>";
-    html += "<td>" + tour[i].content;
+    html += "<td>" + tour[i].content+ "</td>";
     html += "<td>" + tour[i].price + "</td>";
     html += "<td>" + tour[i].timedi + "</td>";
     html += "<td>" + tour[i].timeve + "</td>";
